@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background: white;
+	
+}
+
+#buyForm{
+  display: none;
+}
+
+#welcomeForm{
+  display: none;
+}
+
+#recordForm{
+  display: none;
+}
+
+.fareNode{
+  display : none;
+}
+
+#selectSeat{
+  display: none;
+}
+
+.customerFare{
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid grey;
+  
+}
+
+.customerFareChecked{
+  margin: 5px;
+}
+
+
+body{
+  background:ghostwhite;
+}
+
+#flights{
+    display: none;
+}
+
+#fares{
+  display: none;
+}
+
+#fares2{
+  display: none;
+}
+
+#buyButton{
+  border-radius: 3px;
+  margin-left: 2vw;
+}
+
+#airplane{
+  height: 380px;
+  width: 100vw;
+  padding: 2%;
+  background-color:lightgrey;
+  border-top-right-radius: 25%;
+  border-bottom-right-radius: 25%;
+  display: none;
+  margin-top: 5vh;
+}
+
+.seat{
+  margin-right: 5px;
+}
+
+.emptySeat{
+  cursor:pointer;
+}
